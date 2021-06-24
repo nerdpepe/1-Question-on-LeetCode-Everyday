@@ -1,3 +1,5 @@
+package DuplicateZeroes;
+
 // https://leetcode.com/problems/duplicate-zeros/
 
 public class DuplicateZeroes_Solution {
