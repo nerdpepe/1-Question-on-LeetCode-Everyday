@@ -1,3 +1,5 @@
+package DuplicateZeroes;
+
 // time complexity : O(n^2)
 
 public class DuplicateZeroes_Naive {
