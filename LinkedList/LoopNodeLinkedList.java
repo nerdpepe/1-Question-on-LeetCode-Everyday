@@ -25,7 +25,6 @@ public class LoopNodeLinkedList {
                     fast = fast.next;
                     slow = slow.next;
                 }
-
                 return fast;
             }
         }
