@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.TwoPointerTechnique;
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
 
 public class IntersectionLinkedList_Fast {

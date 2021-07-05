@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.TwoPointerTechnique;
 
 class ListNode {
     int val;

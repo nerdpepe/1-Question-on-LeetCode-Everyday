@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.TwoPointerTechnique;
 
 //import java.util.HashSet;
 

@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.TwoPointerTechnique;
 
 import java.util.HashSet;
 
@@ -14,7 +14,7 @@ class ListNode {
 
 public class IntersectionLinkedList {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        
+
         HashSet<ListNode> hs = new HashSet<>();
         while (headA != null) {
             hs.add(headA);
