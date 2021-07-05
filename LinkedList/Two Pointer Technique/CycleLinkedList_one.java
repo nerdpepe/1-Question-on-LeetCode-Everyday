@@ -10,7 +10,7 @@ class ListNode {
     }
 }
 
-public class CycleLinkedList {
+public class CycleLinkedList_one {
 
     /*
      * Traversing each node and changing the val which can later be checked if there

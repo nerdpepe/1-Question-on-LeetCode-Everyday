@@ -2,7 +2,7 @@ package LinkedList;
 
 //import java.util.HashSet;
 
-public class LoopNodeLinkedList {
+public class CycleLinkedList_two {
     // public ListNode detectCycle(ListNode head) {
     // HashSet<ListNode> hs = new HashSet<>();
     // while (head!=null && head.next!=null) {
