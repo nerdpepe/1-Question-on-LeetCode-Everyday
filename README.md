@@ -8,6 +8,7 @@
 [7]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/TwoPointerTechnique/NthNodeRemoval.java
 [8]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/TwoPointerTechnique/NthNodeRemoval_other.java
 [9]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/ReverseLinkedList.java
+[10]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/ReverseLinkedList_Recursive.java
 
 <!-- End of Link Section -->
 
@@ -52,7 +53,8 @@ With the help of a neat table below, I will also keep a status on each problem.
 |  | [IntersectionLinkedList_Fast.java][6] | ~ _same as above_ ~ | 🟢 |
 |3 July          | [NthNodeRemoval.java][7] | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟢 |
 | 4 July | [NthNodeRemoval_other.java][8]  | ~ _same as above_ ~ | 🟢 |
-| 5 July | [ReverseLinkedList.java][9] | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟡 |
+| 5 July | [ReverseLinkedList.java][9] | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 |
+| 6 July | [ReverseLinkedList_Recursive.java][10] | ~ _as above_ ~ | 🟢 |
 
 
 ---
