@@ -1,5 +1,3 @@
-package LinkedList.ClassicProblems;
-
 class ListNode {
     int val;
     ListNode next;
