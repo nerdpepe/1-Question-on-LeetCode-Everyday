@@ -10,6 +10,7 @@
 [9]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/ReverseLinkedList.java
 [10]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/ReverseLinkedList_Recursive.java
 [11]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/RemoveLinkedListElements.java
+[12]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/OddEvenLinkedList.java
 
 <!-- End of Link Section -->
 
@@ -57,7 +58,7 @@ With the help of a neat table below, I will also keep a status on each problem.
 | 5 July | [ReverseLinkedList.java][9] | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 |
 | 6 July | [ReverseLinkedList_Recursive.java][10] | ~ _as above_ ~ | 🟢 |
 | 7 July | [RemoveLinkedListElements.java][11] | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 |
-
+| 8 July | [OddEvenLinkedList.java][12] | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟢 |
 
 ---
 
