@@ -11,6 +11,8 @@
 [10]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/ReverseLinkedList_Recursive.java
 [11]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/RemoveLinkedListElements.java
 [12]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/OddEvenLinkedList.java
+[13]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/ClassicProblems/PalindromeLinkedList.java
+[14]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/MergeTwoLinkedList.java
 
 <!-- End of Link Section -->
 
@@ -59,7 +61,9 @@ With the help of a neat table below, I will also keep a status on each problem.
 | 6 July | [ReverseLinkedList_Recursive.java][10] | ~ _as above_ ~ | 🟢 |
 | 7 July | [RemoveLinkedListElements.java][11] | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 |
 | 8 July | [OddEvenLinkedList.java][12] | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟢 |
+| 10 July| [PalindromeLinkedList.java][13] | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | 🟢 |
+| 14 July| [MergeTwoLinkedList.java][14] | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 |
 
 ---
 
-Note❗️ : If you find a broken, do contact me. Thanks
+Note❗️ : If you find a broken link, do contact me. Thanks
