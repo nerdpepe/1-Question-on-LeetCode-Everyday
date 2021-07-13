@@ -17,37 +17,25 @@ class MergeTwoLinkedList {
         if(l2 == null)
             return l1;
         
-        ListNode ans = new ListNode (-1, l2);
+        ListNode node = new ListNode ();
+        ListNode ans = node;
         
-        ListNode h = ans;
-        ListNode h_j = l2;
-        
-        ListNode l_temp = l1;
-        
-        while(l1 != null) {
-            //process node at l1
-            // see whether it is less than l2
-            // if yes -> insert before it (store l1.next in temp before doing this)
-            
-            while(h != null) {
-                if(h_j == null) {
-                    h.next = l1;
-                    return ans.next;
-                }
-                
-            if (l1.val <= h_j.val) {
-                l_temp = l1.next;
-                h.next = l1;
-                l1.next = h_j;
-                h = h.next;
-                l1 = l_temp;
-                break;
+        while(l1 != null && l2 != null) {
+            if(l1.val <= l2.val) {
+                node.next = l1;
+                l1 = l1.next;
             } else {
-                h = h.next;
-                h_j = h_j.next;
+                node.next = l2;
+                l2 = l2.next;
             }
-            } // inner while
+            node = node.next;
         }
+        
+        if(l1 == null)
+            node.next = l2;
+        else
+            node.next = l1;
+        
         return ans.next;
     }
 }
