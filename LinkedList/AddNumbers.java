@@ -13,7 +13,7 @@ public class AddNumbers {
             int a = (l1 == null) ? 0 : l1.val;
             int b = (l2 == null) ? 0 : l2.val;
             sum = a + b + carry;
-            point.next = new ListNode(sum % 10);
+            point.next = new ListNode(sums % 10);
             carry = sum / 10;
             point = point.next;
 
