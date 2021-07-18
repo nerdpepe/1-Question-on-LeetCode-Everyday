@@ -1,13 +1,13 @@
 /*
 * Class name below should be DoublyLinkedList - I know
 */
-public class MyLinkedList {
+class MyLinkedList {
 
     MyLinkedList prev;
     MyLinkedList next;
     int val;
 
-    // for keeping a check on head
+    // for keeping a check on heads
     MyLinkedList head = null;
 
     // for keeping a count of nodes
@@ -17,7 +17,6 @@ public class MyLinkedList {
     public MyLinkedList() {
         this.prev = null;
         this.next = null;
-        int val = -1;
     }
 
     /**
@@ -29,11 +28,9 @@ public class MyLinkedList {
             return -1;
 
         MyLinkedList pntr = head;
-
         // traverse to suitable location
         while (index-- > 0)
             pntr = pntr.next;
-
         return pntr.val;
     }
 
@@ -45,10 +42,14 @@ public class MyLinkedList {
         MyLinkedList n = new MyLinkedList();
         n.val = value;
 
-        if (head == null)
+        if (head == null) {
             head = n;
+            nodes++;
+            return;
+        }
 
         n.next = head;
+        head.prev = n;
         head = n;
         nodes++;
     }
@@ -59,15 +60,20 @@ public class MyLinkedList {
         n.val = value;
 
         // if no nodes
-        if (head == null)
+        if (head == null) {
             head = n;
+            nodes++;
+            return;
+        }
 
         MyLinkedList pntr = head;
         while (pntr.next != null)
             pntr = pntr.next;
 
         pntr.next = n;
+        n.prev = pntr;
         nodes++;
+
     }
 
     /**
@@ -77,16 +83,20 @@ public class MyLinkedList {
      * inserted.
      */
     public void addAtIndex(int index, int value) {
-        if (index + 1 > nodes)
+
+        if (index > nodes)
             return;
 
-        if (index == nodes)
-            // add at tail
-            addAtTail(val);
-
-        if (index == 0)
+        if (index == 0) {
             // add at head
-            addAtHead(val);
+            addAtHead(value);
+            return;
+        }
+
+        if (index == nodes) {
+            addAtTail(value);
+            return;
+        }
 
         // make the node
         MyLinkedList n = new MyLinkedList();
@@ -94,18 +104,42 @@ public class MyLinkedList {
 
         MyLinkedList pntr = head;
 
-        while (index-- > 0)
+        while (index-- > 0) {
             pntr = pntr.next;
+        }
 
-        n.next = pntr.next;
-        pntr.next.prev = n;
-        n.prev = pntr;
-        pntr.next = n;
+        n.next = pntr;
+        n.prev = pntr.prev;
+        pntr.prev.next = n;
+        pntr.prev = n;
+
+        nodes++;
     }
 
     /** Delete the index-th node in the linked list, if the index is valid. */
     public void deleteAtIndex(int index) {
+        if (index + 1 > nodes || head == null)
+            return;
 
+        if (index == 0) {
+            head = head.next;
+            nodes--;
+            return;
+        }
+
+        MyLinkedList pntr = head;
+
+        while (index-- > 0) {
+            pntr = pntr.next;
+        }
+
+        if (pntr.next == null) {
+            pntr.prev.next = null;
+        } else {
+            pntr.next.prev = pntr.prev;
+            pntr.prev.next = pntr.next;
+        }
+        nodes--;
     }
 }
 
