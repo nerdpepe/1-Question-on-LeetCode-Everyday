@@ -18,6 +18,8 @@
 [17]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/FlattenDoublyLinkedList.java
 [18]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/LinkedList/RotateList.java
 
+[19]: https://github.com/nerdpepe/1-Question-on-LeetCode-Everyday/blob/main/Self_Study/Recursion/Addition.java
+
 <!-- End of Link Section -->
 
 
@@ -73,6 +75,18 @@ With the help of a neat table below, I will also keep a status on each problem.
 | 19 July| [DoublyLinkedList.java][16] | [Design Linked List](https://leetcode.com/problems/design-linked-list) | 🟢 |
 | 20 July| [FlattenDoublyLinkedList.java][17] | [Flatten Multi-level Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | 🟣 |
 | 20 July| [RotateList.java][18] | [Rotate List](https://leetcode.com/problems/rotate-list/) | 🟢 |
+
+---
+
+#### ⚠️ ᑌᑭᗪᗩTE - ᒍᑌᒪY 21 ⚠️
+
+Though this was meant to be repository solely based on LeetCode, I have added another folder 'Self_Study'.
+
+I felt that there was a need to look outside LeetCode and learn from other resources specially books. And I also felt that a separate repo couldn't have been any better. Now I will have all the code, learning resources under one roof.
+
+|Date            |Github Link                   |Question/Problem                 | Status         |
+|----------------|------------------------------|---------------------------------|----------------|
+| 21 July        | [Addition.java][19]               | Recursion - Add upto N          | 🟢 |
 
 ---
 
